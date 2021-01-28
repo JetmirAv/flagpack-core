@@ -5,7 +5,7 @@ function isoToCountryCode(isoCode, keyToGet = "alpha2") {
   if (isoCode !== undefined) {
     const alpha2Code = codeList.find((countryObj) => countryObj.code.contains(isoCode.toUpperCase()));
 
-    if (alpha2Code) {
+    if (alpha2Code !== undefined) {
       return alpha2Code[keyToGet];
     } else {
       return "AL";
