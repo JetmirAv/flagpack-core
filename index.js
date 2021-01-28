@@ -1,4 +1,4 @@
-import codeList from './countryCodeList.json'
+import codeList from './countryCodeList'
 import flags from './flags'
 
 function isoToCountryCode(isoCode, keyToGet = 'alpha2') {
