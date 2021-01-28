@@ -2,13 +2,14 @@ import codeList from "./countryCodeList";
 import flags from "./flags";
 
 function isoToCountryCode(isoCode, keyToGet = "alpha2") {
-  console.log({ codeList });
-
   if (isoCode !== undefined) {
-    const alpha2Code = codeList.find(
-      (countryObj) => countryObj.alpha2 === isoCode || countryObj.alpha3 === isoCode || countryObj.numeric === isoCode
-    )[keyToGet];
-    return alpha2Code;
+    const alpha2Code = codeList.find((countryObj) => countryObj.code.contains(isoCode.toUpperCase()));
+
+    if (alpha2Code) {
+      return alpha2Code[keyToGet];
+    } else {
+      return "AL";
+    }
   }
 
   throw new Error(
