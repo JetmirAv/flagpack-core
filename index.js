@@ -8,7 +8,7 @@ function isoToCountryCode(isoCode, keyToGet = "alpha2") {
     if (alpha2Code !== undefined) {
       return alpha2Code[keyToGet];
     } else {
-      return "AL";
+      return "MISSING";
     }
   }
 

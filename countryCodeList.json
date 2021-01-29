@@ -46,6 +46,7 @@
   { "countryName": "Switzerland", "alpha2": "CH", "code": ["CH", "CHE", "756"] },
   { "countryName": "Côte d'Ivoire", "alpha2": "CI", "code": ["CI", "CIV", "384"] },
   { "countryName": "Cook Island", "alpha2": "CK", "code": ["CK", "COK", "184"] },
+  { "countryName": "Chechen", "alpha2": "CE", "code": ["CE"] },
   { "countryName": "Chile", "alpha2": "CL", "code": ["CL", "CHL", "152"] },
   { "countryName": "Cameroon", "alpha2": "CM", "code": ["CM", "CMR", "120"] },
   { "countryName": "China", "alpha2": "CN", "code": ["CN", "CHN", "156", "ZH"] },
@@ -256,5 +257,6 @@
   { "countryName": "Zambia", "alpha2": "ZM", "code": ["ZM", "ZMB", "894"] },
   { "countryName": "Zimbabwe", "alpha2": "ZW", "code": ["ZW", "ZWE", "716"] },
   { "countryName": "Afghanistan", "alpha2": "AF", "code": ["AF", "AFG", "004"] },
-  { "countryName": "Bouvet Island", "alpha2": "BV", "code": ["BV", "BVT", "074"] }
+  { "countryName": "Bouvet Island", "alpha2": "BV", "code": ["BV", "BVT", "074"] },
+  { "countryName": "Missing", "alpha2": "MISSING", "code": ["MISSING"] }
 ]

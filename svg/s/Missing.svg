@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Missing - S</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12" rx="2"></rect>
+        <filter x="-34.4%" y="-29.2%" width="168.8%" height="191.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#000000" stop-opacity="0.3" offset="2.42052023%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="0" y="0" width="16" height="12" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-606.000000, -541.000000)">
+            <g id="Missing---S" transform="translate(609.000000, 542.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="drop-shadow" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-3)" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="0" width="16" height="12" rx="2"></rect>
+                <g id="Group" opacity="0.5" mask="url(#mask-2)">
+                    <g transform="translate(4.000000, 2.000000)">
+                        <circle id="Oval" fill="#F5F5F5" fill-rule="evenodd" style="mix-blend-mode: normal;" cx="4" cy="4" r="4"></circle>
+                        <path d="M4.1428125,5.22634766 C4.406875,5.22634766 4.56201172,5.07451172 4.59171875,4.83355469 C4.59501953,4.80384766 4.59832031,4.77083984 4.59832031,4.74113281 C4.62802734,4.37144531 4.7765625,4.20640625 5.32119141,3.85652344 C5.91203125,3.47693359 6.24210938,3.04453125 6.24210938,2.41408203 C6.24210938,1.40404297 5.42021484,0.8 4.30455078,0.8 C3.47605469,0.8 2.79609375,1.15648438 2.51222656,1.75392578 C2.43630859,1.9090625 2.4,2.0675 2.4,2.21273438 C2.4,2.47679688 2.56833984,2.65833984 2.85220703,2.65833984 C3.07005859,2.65833984 3.23839844,2.53951172 3.31761719,2.34146484 C3.47275391,1.83644531 3.81273438,1.63839844 4.25833984,1.63839844 C4.79306641,1.63839844 5.20896484,1.94867188 5.20896484,2.42728516 C5.20896484,2.85638672 4.96800781,3.08414062 4.48609375,3.39771484 C3.99757813,3.71789063 3.66419922,4.07107422 3.66419922,4.59919922 L3.66419922,4.74773438 C3.66419922,5.03160156 3.84574219,5.22634766 4.1428125,5.22634766 Z M4.15271484,7.09458984 C4.48939453,7.09458984 4.76005859,6.83052734 4.76005859,6.50375 C4.76005859,6.17697266 4.48939453,5.91621094 4.15271484,5.91621094 C3.81603516,5.91621094 3.54537109,6.17697266 3.54537109,6.50375 C3.54537109,6.83052734 3.81603516,7.09458984 4.15271484,7.09458984 Z" id="1" fill="#4D4D4D" fill-rule="nonzero" style="mix-blend-mode: normal;"></path>
+                    </g>
+                </g>
+                <g id="overlay" mask="url(#mask-2)">
+                    <use fill="url(#linearGradient-4)" fill-rule="evenodd" style="mix-blend-mode: overlay;" xlink:href="#path-5"></use>
+                    <rect stroke-opacity="0.1" stroke="#000000" stroke-width="1" stroke-linejoin="square" x="0.5" y="0.5" width="15" height="11" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
